@@ -40,10 +40,11 @@
         android:layout_marginStart="35dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_width="114dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
+        android:onClick="HomePage"
         android:elevation="0dp"
         android:text="Login"
         android:layout_below="@+id/editText7"
@@ -78,8 +79,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Criar Conta"
-        android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
+        android:layout_marginEnd="13dp"
+        android:layout_alignBaseline="@+id/login"
+        android:layout_alignBottom="@+id/login"
         android:layout_alignEnd="@+id/editText7" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/fblogo"
+        android:layout_alignBottom="@+id/explorar"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Button
+        android:id="@+id/explorar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Explorar"
+        android:layout_below="@+id/login"
+        android:layout_alignStart="@+id/login"
+        android:layout_marginTop="23dp" />
 
 </RelativeLayout>

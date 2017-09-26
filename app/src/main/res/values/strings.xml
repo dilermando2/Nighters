@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Nighters</string>
+        <string-array name="itens_teste">
+            <item>Cachaca R$ 12,50</item>
+            <item>Tequila R$ 5,25</item>
+            <item>Batata frita R$ 7,50</item>
+            <item>Pizza R$ 6,99</item>
+        </string-array>
 </resources>

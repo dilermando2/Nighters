@@ -5,15 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class HomePage extends AppCompatActivity {
+public class Extrato extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_extrato);
     }
-    public void mostraComanda(View view) {
-        Intent extratoActivity = new Intent(this, Extrato.class);
-        startActivity(extratoActivity);
-    }
+
 }
